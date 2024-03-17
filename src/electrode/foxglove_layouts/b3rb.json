@@ -91,88 +91,11 @@
         }
       },
       "topics": {
-        "/slam_toolbox/scan_visualization": {
-          "visible": false
-        },
         "/scan": {
-          "visible": false,
+          "visible": true,
           "colorField": "intensity",
           "colorMode": "colormap",
           "colorMap": "turbo"
-        },
-        "/robot_description": {
-          "visible": true
-        },
-        "/map": {
-          "visible": true,
-          "frameLocked": false,
-          "colorMode": "map",
-          "alpha": 1
-        },
-        "/local_costmap/costmap": {
-          "visible": false,
-          "colorMode": "custom"
-        },
-        "/local_costmap/scan": {
-          "visible": false
-        },
-        "/path": {
-          "visible": false,
-          "lineWidth": 0.1,
-          "type": "line",
-          "gradient": [
-            "#0088ff85",
-            "#0088ff85"
-          ]
-        },
-        "/plan": {
-          "visible": true
-        },
-        "/plan_smoothed": {
-          "visible": false
-        },
-        "/received_global_plan": {
-          "visible": false
-        },
-        "/unsmoothed_plan": {
-          "visible": false
-        },
-        "/move_base_simple/goal": {
-          "visible": false
-        },
-        "/slam_toolbox/graph_visualization": {
-          "visible": false
-        },
-        "/lookahead_collision_arc": {
-          "visible": false
-        },
-        "/local_costmap/published_footprint": {
-          "visible": false
-        },
-        "/global_costmap/published_footprint": {
-          "visible": true
-        },
-        "/pose": {
-          "visible": false
-        },
-        "/local_costmap/clearing_endpoints": {
-          "visible": false
-        },
-        "/goal_pose": {
-          "visible": false
-        },
-        "/global_costmap/costmap": {
-          "visible": true,
-          "colorMode": "costmap"
-        },
-        "/global_costmap/scan": {
-          "visible": false
-        },
-        "/initialpose": {
-          "visible": false
-        },
-        "/goal_pose_estimate": {
-          "visible": false
         },
         "/ov5645/image_raw": {
           "visible": true,
@@ -192,15 +115,6 @@
         "/camera/camera_info": {
           "visible": true
         }
-      },
-      "publish": {
-        "type": "pose",
-        "poseTopic": "/goal_pose",
-        "pointTopic": "/goal_point",
-        "poseEstimateTopic": "/goal_pose_estimate",
-        "poseEstimateXDeviation": 0.5,
-        "poseEstimateYDeviation": 0.5,
-        "poseEstimateThetaDeviation": 0.26179939
       },
       "imageMode": {},
       "followTf": "map"
@@ -230,20 +144,6 @@
         "fovy": 45,
         "near": 0.5,
         "far": 5000
-      },
-      "followMode": "follow-pose",
-      "scene": {},
-      "transforms": {},
-      "topics": {},
-      "layers": {},
-      "publish": {
-        "type": "point",
-        "poseTopic": "/move_base_simple/goal",
-        "pointTopic": "/clicked_point",
-        "poseEstimateTopic": "/initialpose",
-        "poseEstimateXDeviation": 0.5,
-        "poseEstimateYDeviation": 0.5,
-        "poseEstimateThetaDeviation": 0.26179939
       },
       "imageMode": {
         "imageTopic": "/camera/image_raw/compressed",
