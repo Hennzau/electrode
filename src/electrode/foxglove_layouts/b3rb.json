@@ -74,8 +74,7 @@
         "far": 5000
       },
       "imageMode": {
-        "imageTopic": "/debugImage",
-        "calibrationTopic": "/camera/camera_info"
+        "imageTopic": "/debugImage"
       },
       "foxglovePanelTitle": "Camera"
     },
