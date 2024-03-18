@@ -39,7 +39,7 @@
         }
       },
       "topics": {
-        "/scan": {
+        "/lidar/scan": {
           "visible": true,
           "colorField": "intensity",
           "colorMode": "colormap",
