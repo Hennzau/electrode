@@ -74,7 +74,7 @@
         "far": 5000
       },
       "imageMode": {
-        "imageTopic": "/debugImage"
+        "imageTopic": "/camera/raw_image/compressed"
       },
       "foxglovePanelTitle": "Camera"
     },
