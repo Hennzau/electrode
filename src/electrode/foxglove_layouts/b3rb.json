@@ -86,72 +86,9 @@
       "topicPath": "/cerebri/out/status.status_message",
       "fontSize": 18
     },
-    "Gauge!33y8apv": {
-      "path": "/cerebri/out/status.fuel_percentage",
-      "minValue": 0,
-      "maxValue": 100,
-      "colorMap": "turbo",
-      "colorMode": "gradient",
-      "gradient": [
-        "#ffff00fa",
-        "#00ff00ff"
-      ],
-      "reverse": false,
-      "foxglovePanelTitle": "Fuel"
-    },
-    "Indicator!1iukamu": {
-      "path": "/cerebri/out/status.fuel",
-      "style": "background",
-      "fallbackColor": "#171717",
-      "fallbackLabel": "Waiting",
-      "rules": [
-        {
-          "operator": "=",
-          "rawValue": "1",
-          "color": "#ffff00",
-          "label": "Critical"
-        },
-        {
-          "operator": "=",
-          "rawValue": "2",
-          "color": "#c7ff00",
-          "label": "Low"
-        },
-        {
-          "operator": "=",
-          "rawValue": "3",
-          "color": "#00ff00",
-          "label": "Nominal"
-        }
-      ],
-      "foxglovePanelTitle": "Fuel Status"
-    },
-    "Indicator!3ealhln": {
-      "path": "/cerebri/out/status.safety",
-      "style": "background",
-      "fallbackColor": "#171717",
-      "fallbackLabel": "Waiting",
-      "rules": [
-        {
-          "operator": "=",
-          "rawValue": "1",
-          "color": "#00ff00",
-          "label": "SAFETY ON"
-        },
-        {
-          "operator": "=",
-          "rawValue": "2",
-          "color": "#ff0000",
-          "label": "SAFETY OFF"
-        }
-      ],
-      "foxglovePanelTitle": "SAFETY STATUS"
-    },
     "Indicator!dweyid": {
       "path": "/cerebri/out/status.arming",
       "style": "background",
-      "fallbackColor": "#171717",
-      "fallbackLabel": "Waiting",
       "rules": [
         {
           "operator": "=",
@@ -177,8 +114,6 @@
     "Indicator!9k4ufh": {
       "path": "/cerebri/out/status.mode",
       "style": "background",
-      "fallbackColor": "#171717",
-      "fallbackLabel": "Waiting",
       "rules": [
         {
           "operator": "=",
@@ -233,25 +168,10 @@
       "first": "3D!18i6zy7",
       "second": {
         "first": {
-          "first": {
-            "first": {
-              "first": {
-                "first": "Image!dzx5t6",
-                "second": "RawMessages!1ydg0gi",
-                "direction": "column",
-                "splitPercentage": 62.74131274131274
-              },
-              "second": "Gauge!33y8apv",
-              "direction": "column",
-              "splitPercentage": 78.0416453319679
-            },
-            "second": "Indicator!1iukamu",
-            "direction": "column",
-            "splitPercentage": 84.69945355191257
-          },
-          "second": "Indicator!3ealhln",
+          "first": "Image!dzx5t6",
+          "second": "RawMessages!1ydg0gi",
           "direction": "column",
-          "splitPercentage": 86.81214421252372
+          "splitPercentage": 62.74131274131274
         },
         "second": {
           "first": "Indicator!dweyid",
