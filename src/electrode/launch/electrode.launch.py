@@ -51,7 +51,7 @@ ARGUMENTS = [
     ),
 
     DeclareLaunchArgument('topic_whitelist',
-        default_value=['["/camera/image_raw/compressed","/camera/camera_info","/cerebri/out/status","/debugImage", "/lidar/scan","/tf"]'],
+        default_value=['["/camera/image_raw/compressed","/camera/camera_info","/cerebri/out/status","/vision/image_raw/compressed", "/lidar/scan","/tf"]'],
         description='topic_whitelist for foxglove'
     ),
 
